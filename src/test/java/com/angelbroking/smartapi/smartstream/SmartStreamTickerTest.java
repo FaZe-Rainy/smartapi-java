@@ -30,7 +30,7 @@ public class SmartStreamTickerTest {
 		clientPass = System.getProperty("clientPass");
 		apiKey = System.getProperty("apiKey");
 		SmartConnect smartConnect = new SmartConnect(apiKey);
-		User user = smartConnect.generateSession(clientID, clientPass);
+		User user = smartConnect.generateSession(clientID, clientPass, "totp");
 		feedToken = user.getFeedToken();
 	}
 	
