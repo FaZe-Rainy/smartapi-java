@@ -25,7 +25,7 @@
 		<maven-shade-plugin-version>3.5.1</maven-shade-plugin-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>5.8.1</junit.version>
-		<mockito.version>5.5.0</mockito.version>
+		<mockito.version>5.2.0</mockito.version>
 		<assertj.version>3.24.2</assertj.version>
 		<commons-codec.version>1.16.0</commons-codec.version>
 		<super-csv.version>2.4.0</super-csv.version>
